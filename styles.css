@@ -1,9 +1,10 @@
 body{
   margin: 0px;
   background-image: url(images/bg-mobile.svg);
-  background-position:  top;
+  background-position: center;
   background-repeat: no-repeat;
   background-color: hsl(257, 40%, 49%);
+  background-size: cover;
   font-family: Open sans, Arial;
   color: white;
 }
@@ -85,21 +86,37 @@ button:hover{
   }
   .hero{
     width: 48rem;
-    margin-left: 10rem;
-    margin-top: 6rem;
+    margin-left: 21rem;
+    margin-top: 11rem;
   }
   .info-container{
     text-align: left;
     margin-top: 10rem;
   }
   .title{
-    margin-right: 10rem;
+    margin-right: 5rem;
+    font-size: 3rem;
   }
   .icon-container{
     margin: 0%;
-    margin-left: 70rem;
+    margin-left: 90rem;
+    margin-top: 5rem;
   }
   .attribution{
     margin: 0%;
   }
+  .youtube-icon, .github-icon, .twitter-icon{
+    width: 50px;
+
+  }
+  button{
+    padding: 10px 50px;
+
+  }
+  .description{
+    margin-right: 8rem;
+    font-size: medium;
+
+  }
+
 }
